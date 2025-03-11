@@ -8,7 +8,7 @@ import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
 @Data
-public class Hello {
+public class UserTest {
 
     private String id;
     private String name;
@@ -16,10 +16,10 @@ public class Hello {
     private Timestamp now;
 
     // 기본 생성자
-    public Hello() {}
+    public UserTest() {}
 
     @Builder
-    public Hello(String id, String name, String message) {
+    public UserTest(String id, String name, String message) {
         this.id = id;
         this.name = name;
         this.message = message;
