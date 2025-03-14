@@ -23,6 +23,9 @@ dependencies {
     // sql add
     implementation 'org.postgresql:postgresql:42.6.0'
 
+    // junit lib add
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.0'
+
 }
 
 sourceCompatibility = 17
